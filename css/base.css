@@ -56,12 +56,12 @@ a:hover{
     color: white;
     padding: 2%;
     box-shadow: 0 0 20px rgb(14, 8, 8);
-    background-color: rgba(128, 128, 128, 0.158);
+    background-color: rgba(22, 18, 18, 0.904);
     border-radius: 2%;
-    transition: transform 0.7s ease, box-shadow 0.8s ease;
+    transition: transform 0.7s ease, box-shadow 0.8s ease, background-color 0.5s;
 }
 .card:hover{
-    background-color: rgba(128, 128, 128, 0.185);
+    background-color: rgba(29, 23, 23, 0.897);
     transform: scale(1.1);
     box-shadow: 0 0 40px black;
 }
