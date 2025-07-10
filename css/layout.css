@@ -1,0 +1,97 @@
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    gap: 10px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header img{
+    width: 60px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50vh;
+}
+.hero div{
+    width: 400px;
+}
+.cards{
+    gap: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.card img{
+    width: 70%;
+    height: 70%;
+    border-radius: 10%;
+}
+.card{
+    gap: 20px;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+}
+.extra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#info{
+    width: 500px;
+}
+.solicitar{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.solicitar button{
+    position: relative;
+}
+.fade{
+    align-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.extra h2{
+    text-align: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+footer div{ 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer img{
+    width: 60px;
+}
+footer nav{
+    display: flex;
+    gap: 10px;
+}
