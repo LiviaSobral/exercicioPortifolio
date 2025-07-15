@@ -55,7 +55,7 @@ a:hover{
     font-family: "Geo", sans-serif;
 }
 .projetos{
-    background-image: linear-gradient(rgba(0, 89, 255, 0.233),rgba(0, 0, 0, 0.034),rgba(0, 0, 0, 0.034),rgba(0, 0, 0, 0.034));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.87),rgba(0, 0, 0, 0.247),rgba(0, 0, 0, 0.247),rgba(0, 0, 0, 0.034));
 }
 .card{
     color: white;
