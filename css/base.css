@@ -5,7 +5,12 @@ body{
 header{
     color: rgb(238, 203, 45);
     padding: 15px;
-    background-image: linear-gradient(90deg, rgb(33, 33, 105),rgb(60, 60, 134), rgb(33, 33, 105));
+    background-color: rgb(33, 33, 105);
+    transition: background-color 0.5s ease;
+}
+header.change{
+    background-color: rgba(33, 33, 105, 0.582);
+    transition: background-color 1s ease;
 }
 header h2{
     font-family: "Lobster", sans-serif;
