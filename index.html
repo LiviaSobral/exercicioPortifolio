@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="shortcut icon" href="imgs/sword.png" type="image/x-icon">
 </head>
 <body>
@@ -58,20 +59,20 @@
         <section class="projetos">
             <h2>Projetos recentes:</h2>
             <div class="cards">
-                <div class="card">
+                <div class="card-meu">
                     <img src="imgs/caixa.jpg" alt="base secreta">
                     <h3>Uma caixa de papelão</h3>
-                    <button>Ver mais</button>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#1Modal">Ver mais</button>
                 </div>
-                <div class="card">
+                <div class="card-meu">
                     <img src="imgs/outra caixa.jpg" alt="caixa de papelão">
                     <h3>Outra caixa</h3>
-                    <button>Ver mais</button>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#2Modal">Ver mais</button>
                 </div>
-                <div class="card move">
+                <div class="card-meu">
                     <img src="imgs/tposingWave.webp" alt="Predios contruidos de lado">
                     <h3>Cristo Redentor</h3>
-                    <button>Ver mais</button>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#3Modal">Ver mais</button>
                 </div>
             </div>      
             <h2>Mais sobre:</h2>      
@@ -86,13 +87,13 @@
         <section class="solicitar">
                 <h1>Precisa de um projeto?</h1>
                 <p>Por favor, preencha o breve formulário para que possamos entender melhor sobre sua empresa e os serviços que você necessita.</p>
-                <button><span class="fade">Solicite uma proposta</span>Solicite uma proposta</button>
+                <button><span class="efeito">Solicite uma proposta</span>Solicite uma proposta</button>
         </section>
     </main>
     <footer>
         <div>
             <img src="imgs/sword.png" alt="Cassette">
-            <h2>WORT</h2> 
+            <h2>WORT</h2>
         </div>
         <nav>
             <a href="https://mozilla-firefox.softonic.com.br/">instagram</a>
@@ -100,7 +101,66 @@
             <a href="https://mozilla-firefox.softonic.com.br/">Twitter</a>
         </nav>
     </footer>
-    
+
+    <div class="modal fade" id="1Modal" tabindex="-1" aria-labelledby="card1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="card1ModalLabel">Caixa de Papelão</h5>
+            </div>
+            <div class="modal-body">
+              
+              <p>
+                a
+              </p>
+              
+            </div>
+            <div class="modal-footer" id="footer-modal1">
+              <button type="button" class="butao" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="2Modal" tabindex="-1" aria-labelledby="card1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="card1ModalLabel">Outra caixa</h5>
+            </div>
+            <div class="modal-body">
+              
+              <p>
+                b
+              </p>
+              
+            </div>
+            <div class="modal-footer" id="footer-modal2">
+              <button type="button" class="butao" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="3Modal" tabindex="-1" aria-labelledby="card1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="card1ModalLabel">Cristo Redentor</h5>
+            </div>
+            <div class="modal-body">
+              
+              <p>
+                c
+              </p>
+              
+            </div>
+            <div class="modal-footer" id="footer-modal3">
+              <button type="button" class="butao" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 </html>
