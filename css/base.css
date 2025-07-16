@@ -117,7 +117,6 @@ a:hover{
     background-color: rgb(80, 4, 4);
     color: white;
     transition: background-color 0.3s;
-    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
 }
 .projetos h2{
