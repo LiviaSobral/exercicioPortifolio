@@ -31,6 +31,9 @@ header img{
     width: 60%;
     margin-top: 25vh;
 }
+.hero img{
+    height: 55vh;
+}
 .hero-card{
     text-align: center;
     width: 200px;
@@ -48,21 +51,18 @@ header img{
 .hero div{
     width: 400px;
 }
-.hero img{
-    height: 55vh;
-}
 .cards{
     gap: 10%;
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
 }
-.card img{
+.card-meu img{
     width: 70%;
     height: 70%;
     border-radius: 10%;
 }
-.card{
+.card-meu{
     gap: 20px;
     width: 30%;
     height: auto;
@@ -90,7 +90,7 @@ header img{
 .solicitar button{
     position: relative;
 }
-.fade{
+.efeito{
     align-content: center;
     position: absolute;
     height: 100%;
